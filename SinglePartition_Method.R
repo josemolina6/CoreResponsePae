@@ -20,7 +20,7 @@ percentage <- prop.table(table(Dtraining$Class)) * 100
 cbind(freq=table(Dtraining$Clase), percentage=percentage)
 #summary(Dtraining)
 
-#Distribucion de la clase en validación
+#Distribucion de la clase en validaciÃ³n
 percentage2 <- prop.table(table(Dvalidation$Class))*100
 cbind(freq=table(Dvalidation$Clase),percentage=percentage2)
 #summary(Dvalidation)
@@ -28,7 +28,7 @@ cbind(freq=table(Dvalidation$Clase),percentage=percentage2)
 # split input and output
 x <- Dtraining[,1:5548]
 y <- Dtraining[,5549]
-sx <- Dtraining[,c(4,5,6,1,2,3)]#Estaba 1:6, pero es para que se ordene en el gráfico
+sx <- Dtraining[,c(4,5,6,1,2,3)]#Estaba 1:6, pero es para que se ordene en el grÃ¡fico
 
 #boxplot
 par(mfrow=c(1,6))
@@ -74,15 +74,15 @@ fit.knn <- train(Class~., data=Dtraining, method="knn", metric=metric, trControl
 #set.seed(7)
 #fit.rf <- train(Class~., data=Dtraining, method="rf", metric=metric, trControl=control)
 
-# summarize accuracy of models
+#Â summarize accuracy of models
 results <- resamples(list(knn=fit.knn, svm=fit.svm, rf=fit.rf, lda=fit.lda, cart=fit.cart))
 summary(results)
 
 
-#el mejor estaría dando con RF pero al evaluar los datos no da bien, por lo que se prueban los otros
+#el mejor estarÃ­a dando con RF pero al evaluar los datos no da bien, por lo que se prueban los otros
 # y da muy bien con lda y svm
 
-# compare accuracy of models
+# compareÂ accuracy of models
 dotplot(results)
 
 #RANKING PARA ALGORITMO
@@ -153,7 +153,7 @@ Statistics30<-confusionMatrix(predictions30, Dval30$Class)
 kvalue=200
 
   
-kEvaluacion<-matrix(,nrow=kvalue, ncol=19) #Son 18 parametros y uno más para calculos que uno quiera hacr en una columna
+kEvaluacion<-matrix(,nrow=kvalue, ncol=19) #Son 18 parametros y uno mÃ¡s para calculos que uno quiera hacr en una columna
 colnames(kEvaluacion)<-c("Accuracy","Kappa","AccuracyLower","AccuracyUpper","AccuracyNull", "AccuracyPValue","McnemarPValue","Sensitivity", "Specificity", "Pos Pred Value", "Neg Pred Value", "Precision", "Recall","F1","Prevalence" ,"Detection Rate","Detection Prevalence","Balanced Accuracy", "K")
 
 for (k in 1:kvalue){  #c(30,35,100)
@@ -171,7 +171,7 @@ for (k in 1:kvalue){  #c(30,35,100)
 StatisticsK$byClass
 
 
-#Para agregar otro parámetro a dedo, por ejemplo el valor F1 calculado o el valor K (SOLO DE PRUEBA)
+#Para agregar otro parÃ¡metro a dedo, por ejemplo el valor F1 calculado o el valor K (SOLO DE PRUEBA)
 for (k in 1:kvalue){
   kEvaluacion[k,19]<-k
 #PARA F1 calculado  kEvaluacion[k,19]<-(2*kEvaluacion[k,12]*kEvaluacion[k,13]/(kEvaluacion[k,12]+kEvaluacion[k,13]))
@@ -258,6 +258,6 @@ View(juntos)
 
 
 
-#Extracción de listas
+#ExtracciÃ³n de listas
 ListaGenes<-as.data.frame(rownames(importance$importance))
 write.csv(ListaGenes, file="ListaGenesRF.csv")
