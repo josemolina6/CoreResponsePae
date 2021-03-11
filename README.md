@@ -5,7 +5,7 @@ Work: A first perturbome of Pseudomonas aeruginosa: Identification of core genes
 
 Developer: Jose A. Molina-Mora, PhD.
 
-To run the three pipeline, just download them in a directory. After installing the required packages, you can run all the pipelines directly.
+To run the three pipelines, just download them in a directory, including the dataset and the script "Classif_Independent.R". After installing the required packages, you can run all the pipelines directly.
 Comments are provided in each step.
 
 Details of the files:
