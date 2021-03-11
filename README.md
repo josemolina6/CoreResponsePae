@@ -2,6 +2,7 @@
 Pipelines for the analysis of the perturbome or response to multiple perturbations in Pseudomonas aeruginosa
 
 Work: A first perturbome of Pseudomonas aeruginosa: Identification of core genes related to multiple perturbations by a machine learning approach
+
 Developer: Jose A. Molina-Mora, PhD.
 
 To run the three pipeline, just download them in a directory. After installing the required packages, you can run all the pipelines directly.
@@ -17,12 +18,16 @@ Details of the files:
 Contact: 
 
 Jose Arturo Molina Mora, Ph.D.
+
 Microbiólogo bioinformático 
+
 Tel. (+506) 2511 8646
+
 e-mail: jose.molinamora@ucr.ac.cr
+
 https://orcid.org/0000-0001-9764-4192
 
-Sección de Biología Celular y Molecular
-Facultad de Microbiología
+Sección de Biología Celular y Molecular, 
+Facultad de Microbiología, 
 Universidad de Costa Rica
 
