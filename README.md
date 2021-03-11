@@ -18,13 +18,9 @@ Details of the files:
 Contact: 
 
 Jose Arturo Molina Mora, Ph.D.
-
 Microbiólogo bioinformático 
-
 Tel. (+506) 2511 8646
-
 e-mail: jose.molinamora@ucr.ac.cr
-
 https://orcid.org/0000-0001-9764-4192
 
 Sección de Biología Celular y Molecular, 
