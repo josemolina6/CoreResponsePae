@@ -1,4 +1,4 @@
-# Perturbome
+# Perturbome: Pipelines based on machine learning to identify core genes related to multiple perturbations in Pseudomonas aeruginosa
 Scripts for the analysis of the perturbome or response to multiple perturbations in Pseudomonas aeruginosa
 
 Work: A first perturbome of Pseudomonas aeruginosa: Identification of core genes related to multiple perturbations by a machine learning approach
@@ -15,7 +15,8 @@ Details of the files:
   5. Complete_Dataset: File with the normalized data (obtained from Pipeline 1), but manual selection of conditions (see Methods) was required to define the final list, as well as metadata was incorporates. Here you can find the GEO Ids by experiment and serie, name of the perturbation and other data.
   
 Contact: 
-Jose Arturo Molina Mora, Ph.D. 
+
+Jose Arturo Molina Mora, Ph.D.
 Microbiólogo bioinformático 
 Tel. (+506) 2511 8646
 e-mail: jose.molinamora@ucr.ac.cr
@@ -25,7 +26,3 @@ Sección de Biología Celular y Molecular
 Facultad de Microbiología
 Universidad de Costa Rica
 
--. .-.   .-. .-.   .-. .-.   .  
-||\|||\ /|||\|||\ /|||\|||\ /|
-|/ \|||\|||/ \|||\|||/ \|||\||
-~   `-~ `-`   `-~ `-`   `-~ `-
