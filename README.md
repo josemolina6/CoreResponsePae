@@ -1,5 +1,5 @@
-# Perturbome: Pipelines based on machine learning to identify core genes related to multiple perturbations in Pseudomonas aeruginosa
-Scripts for the analysis of the perturbome or response to multiple perturbations in Pseudomonas aeruginosa
+# Perturbome: Pipelines based on machine learning to identify core genes related to multiple perturbations
+Pipelines for the analysis of the perturbome or response to multiple perturbations in Pseudomonas aeruginosa
 
 Work: A first perturbome of Pseudomonas aeruginosa: Identification of core genes related to multiple perturbations by a machine learning approach
 Developer: Jose A. Molina-Mora, PhD.
